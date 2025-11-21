@@ -41,8 +41,7 @@ Thanks to the community for the fast adoption of FlashVSR! Below are some third-
   https://github.com/kijai/ComfyUI-WanVideoWrapper/issues/1441
 
 **Cloud / API Deployments**  
-(Ready-to-use online inference; however, if you have a capable GPU, we recommend running the official repository directly to achieve the most complete and accurate results.  
-The following services are maintained by third parties — and honestly, I’m not sure whether they use v1 or v1.1, or whether the full pipeline is executed correctly. 🤷‍♂️)
+(These third-party services offer ready-to-use online inference, making it easy to try FlashVSR without any setup or GPU requirements. However, it’s unclear whether they run v1 or v1.1 or whether the full pipeline is implemented, so results may differ from the official version. 🤷‍♂️ For the most accurate and complete reproduction, we recommend using the official repository when possible.)
 
 - fal.ai: https://fal.ai/models/fal-ai/flashvsr/upscale/video  
 - WaveSpeed AI: https://wavespeed.ai/models/wavespeed-ai/flashvsr  
@@ -68,8 +67,6 @@ Below is a comparison example provided by a community member:
 ✅ The **official FlashVSR pipeline (this repository)**:
 - **Better preserves fine structures and details**
 - **Effectively avoids texture aliasing and visual artifacts**
-
-We are also working on a **version that does not rely on the Block-Sparse Attention library** while keeping **the same output quality**; this alternative may run slower than the optimized original implementation.
 
 Thanks again to the community for actively testing and helping improve FlashVSR together! 🚀
 
